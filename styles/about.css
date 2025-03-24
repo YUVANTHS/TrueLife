@@ -1277,3 +1277,7 @@ section
 .btn btn-primary{
 	color: white;
 }
+.logo img {
+    max-width: 80%; /* Adjust logo size */
+    height: auto;
+}

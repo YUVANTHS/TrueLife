@@ -1285,4 +1285,7 @@ section
 .service_content .btn-primary:hover {
     background: #021d40;
 }
-
+.logo img {
+    max-width: 80%; /* Adjust logo size */
+    height: auto;
+}
