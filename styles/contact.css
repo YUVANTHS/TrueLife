@@ -91,11 +91,11 @@ a, a:hover, a:visited, a:active, a:link
 }
 a:hover
 {
-	color: #20d34a !important;
+	color: #008081 !important;
 }
 ::selection
 {
-	color: #20d34a;
+	color: #008081;
 }
 
 h1{font-size: 48px;}
@@ -208,7 +208,7 @@ section
 {
 	display: inline-block;
 	height: 51px;
-	background: #283290;
+	background: #008081;
 }
 .button::after
 {
@@ -218,7 +218,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 3px;
-	background: #20d34a;
+	background: #F18070;
 	content: '';
 	z-index: 0;
 	-webkit-transition: all 400ms cubic-bezier(.33,.68,.59,.99);
@@ -267,7 +267,7 @@ section
 	top: 0;
 	width: 54px;
 	height: 3px;
-	background: #20d34a;
+	background: #F18070;
 	content: '';
 }
 .section_title_light h2
@@ -301,7 +301,7 @@ section
 .top_bar
 {
 	width: 100%;
-	background: #283290;
+	background: #008081;
 }
 .top_bar_content
 {
@@ -433,7 +433,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 4px;
-	background: #20d34a;
+	background: #F18070;
 }
 .logo
 {
@@ -441,17 +441,17 @@ section
 }
 .logo span
 {
-	color: #20d34a;
+	color: #F18070;
 }
 .logo_container a .logo:hover
 {
-	color: #283290;
+	color: #008081;
 }
 .logo_text
 {
 	font-size: 30px;
 	font-weight: 500;
-	color: #283290;
+	color: #008081;
 	line-height: 0.75;
 }
 .logo_box
@@ -459,7 +459,7 @@ section
 	display: inline-block;
 	width: 23px;
 	height: 23px;
-	background: #20d34a;
+	background: #F18070;
 	color: #FFFFFF;
 	font-size: 24px;
 	line-height: 23px;
@@ -608,7 +608,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #20d34a;
+	background: #F18070;
 }
 .menu_extra
 {
@@ -621,7 +621,7 @@ section
 .menu_appointment a
 {
 	font-size: 13px;
-	color: #283290;
+	color: #008081;
 }
 .menu_emergencies
 {
@@ -661,7 +661,7 @@ section
 }
 .home_title span
 {
-	color: #20d34a;
+	color: #F18070;
 }
 .breadcrumbs
 {
@@ -717,7 +717,7 @@ section
 	display: inline-block;
 	width: 31px;
 	height: 31px;
-	background: #20d34a;
+	background: #F18070;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -774,7 +774,7 @@ section
 	width: 100%;
 	height: 2px;
 	content: '';
-	background: #20d34a;
+	background: #F18070;
 	visibility: hidden;
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
@@ -885,7 +885,7 @@ section
 {
 	width: 362px;
 	height: 287px;
-	background: #283290;
+	background: #008081;
 	padding-left: 42px;
 	padding-top: 29px;
 	box-shadow: 0px 15px 49px rgba(0,0,0,0.59);
@@ -903,7 +903,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 4px;
-	background: #20d34a;
+	background: #F18070;
 	content: '';
 }
 .box_title
@@ -982,7 +982,7 @@ section
     left: 0;
     width: 100%;
     height: 4px;
-    background: #20d34a;
+    background: #F18070;
     content: '';
 }
 
