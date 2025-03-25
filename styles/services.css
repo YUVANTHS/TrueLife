@@ -1296,7 +1296,7 @@ section
   
   .navbar-nav .nav-link {
 	font-weight: bold;
-	color: black !important;
+	color: #008081 !important;
 	transition: color 0.3s ease-in-out;
   }
   
