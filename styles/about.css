@@ -94,11 +94,11 @@ a, a:hover, a:visited, a:active, a:link
 }
 a:hover
 {
-	color: #20d34a !important;
+	color: #f87c56 !important;
 }
 ::selection
 {
-	color: #20d34a;
+	color: #f87c56;
 }
 
 h1{font-size: 48px;}
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6
 
 .form-control
 {
-	color: #db5246;
+	color: #f87c56;
 }
 section
 {
@@ -221,7 +221,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 3px;
-	background: #20d34a;
+	background: #f87c56;
 	content: '';
 	z-index: 0;
 	-webkit-transition: all 400ms cubic-bezier(.33,.68,.59,.99);
@@ -270,7 +270,7 @@ section
 	top: 0;
 	width: 54px;
 	height: 3px;
-	background: #20d34a;
+	background: #f87c56;
 	content: '';
 }
 .section_title_light h2
@@ -333,7 +333,7 @@ section
 .emergencies
 {
 	height: 100%;
-	background: #ff0030;
+	background: #f87c56;
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 700;
@@ -436,7 +436,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 4px;
-	background: #20d34a;
+	background: #f87c56;
 }
 .logo
 {
@@ -444,7 +444,7 @@ section
 }
 .logo span
 {
-	color: #20d34a;
+	color: #f87c56;
 }
 .logo_container a .logo:hover
 {
@@ -462,7 +462,7 @@ section
 	display: inline-block;
 	width: 23px;
 	height: 23px;
-	background: #20d34a;
+	background: #f87c56;
 	color: #FFFFFF;
 	font-size: 24px;
 	line-height: 23px;
@@ -563,7 +563,7 @@ section
 }
 .menu_item a:hover
 {
-	color: #ffb606;
+	color: #f87c56;
 }
 .menu_close_container
 {
@@ -611,7 +611,7 @@ section
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after
 {
-	background: #20d34a;
+	background: #f87c56;
 }
 .menu_extra
 {
@@ -664,7 +664,7 @@ section
 }
 .home_title span
 {
-	color: #20d34a;
+	color: #f87c56;
 }
 .breadcrumbs
 {
@@ -761,7 +761,7 @@ section
 	bottom: 0;
 	width: 100%;
 	height: 4px;
-	background: #20d34a;
+	background: #f87c56;
 	content: '';
 }
 .box:hover
@@ -815,7 +815,7 @@ section
 {
 	font-size: 30px;
 	font-weight: 400;
-	color: #20d34a;
+	color: #f87c56;
 	margin-top: 20px;
 }
 .box_appointments
@@ -865,7 +865,7 @@ section
 {
 	width: 45px;
 	height: 45px;
-	background: #20d34a;
+	background: #f87c56;
 }
 .test_text
 {
@@ -904,7 +904,7 @@ section
 }
 .test_author_name span
 {
-	color: #20d34a;
+	color: #f87c56;
 	font-style: italic;
 }
 
