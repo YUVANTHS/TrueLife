@@ -1243,6 +1243,24 @@ section
   
   /* Hover Effect */
   .navbar-nav .nav-link:hover {
-	color: #20d34a !important;
+	color: #f87c56 !important;
   }
+
+  .contact_link {
+    display: inline-block;
+    padding: 8px 30px; /* Reduced padding for a smaller height */
+    background-color: #008081;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.contact_link:hover {
+    background-color: #F18070;
+    color: #fff;
+}
+
+
   
