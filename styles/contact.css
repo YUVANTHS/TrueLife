@@ -954,120 +954,7 @@ section
 7. Footer
 *********************************/
 
-.footer {
-    width: 100%;
-    background: white;
-    color: black;
-    padding: 40px 0;
-}
 
-.footer_container {
-    width: 100%;
-    background: #060b3a;
-    padding-bottom: 77px;
-}
-
-.footer_logo_container {
-    width: 100%;
-    height: 157px;
-    background: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer_logo_container::after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: #F18070;
-    content: '';
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-left, .footer-center, .footer-right {
-    flex: 1;
-    padding: 20px;
-}
-
-.footer-left {
-    text-align: left;
-}
-
-.footer-left img {
-    width: 150px;
-    margin-bottom: 10px;
-}
-
-.footer-left h3, .footer-center h3, .footer-right h3 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.footer-left ul, .footer-right ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-left ul li {
-    margin-bottom: 10px;
-}
-
-.footer-left ul li i {
-    margin-right: 8px;
-}
-
-.footer-center {
-    text-align: center;
-}
-
-.footer-center p {
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 5px;
-}
-
-.footer-right {
-    text-align: right;
-}
-
-.social-links {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    padding: 0;
-}
-
-.social-links li {
-    list-style: none;
-}
-
-.social-links a {
-    color: black;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.footer-bottom {
-    text-align: center;
-    background: white;
-    padding: 10px;
-    margin-top: 20px;
-}
-
-.footer-bottom p {
-    color: black;
-    font-size: 14px;
-}
 
 .logo img {
     max-width: 80%; /* Adjust logo size */
@@ -1106,6 +993,69 @@ section
 }
 body {
     font-family: 'Outfit', sans-serif;
+}
+/* Footer Styling */
+.footer {
+    background-color: #222;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+
+/* Social Icons */
+.footer .social-icons {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #444;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect for Social Icons */
+.footer .social-icons a:hover {
+    background-color: #F18070 !important;
+    color: white; /* Ensure the icon color remains visible */
+}
+
+.footer .social-icons a i {
+    transition: color 0.3s ease-in-out;
+}
+
+/* Changing the icon color on hover */
+.footer .social-icons a:hover i {
+    color: white;
+}
+
+/* Contact Information */
+.footer .contact-info {
+    margin-top: 20px;
+}
+
+.footer .contact-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.footer .contact-info a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect for Contact Info */
+.footer .contact-info a:hover {
+    color: #F18070 !important;
 }
 
 
