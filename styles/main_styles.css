@@ -960,7 +960,7 @@ section
 .service
 {
 	width: 100%;
-	background: #f5f7fa;
+	background: #008081;
 	padding-top: 46px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -1032,7 +1032,7 @@ section
 }
 .service_text p
 {
-	color: #696969;
+	color: white;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1043,7 +1043,7 @@ section
 {
 	font-size: 20px;
 	font-weight: 700;
-	color: #232323;
+	color: white;
 	padding-top: 41px;
 	margin-top: 26px;
 }
@@ -1504,7 +1504,11 @@ section
 	background-color: #F18070;
 	color: #fff;
 }
+body {
+    font-family: 'Outfit', sans-serif;
+}
 
+  
 
 
  
