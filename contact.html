@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <link rel="stylesheet" type="text/css" href="styles/contact.css">
 <link rel="stylesheet" type="text/css" href="styles/contact_responsive.css">
 </head>
@@ -110,6 +111,94 @@
 			</div>
 		</div>
 	</div>-->
+	<div class="row map_row">
+		<div class="col">
+			<!-- Contact Map -->
+			<div class="contact_map">
+				<!-- Google Map -->
+				<div class="map">
+					<div id="google_map" class="google_map">
+						<div class="map_container">
+							<iframe 
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.7647723582395!2d55.3816211748401!3d25.278497228403943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c39c6555555%3A0xc72079c5fcb6c63a!2sAl%20Nasriya%20Building%20%2CBlock%20B%2C%20OFFICE%20104!5e0!3m2!1sen!2sin!4v1742664962626!5m2!1sen!2sin" 
+								width="100%" 
+								height="400" 
+								style="border:0;" 
+								allowfullscreen="" 
+								loading="lazy" 
+								referrerpolicy="no-referrer-when-downgrade">
+							</iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<style>
+		.contact-box {
+			border: 2px solid teal; /* Blue border */
+			border-radius: 10px; /* Rounded corners */
+			padding: 20px; /* Inner spacing */
+			text-align: center; /* Center align text */
+			box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+			transition: all 0.3s ease-in-out;
+			background: teal; /* Light background */
+		}
+	
+		.contact-box:hover {
+			transform: scale(1.05); /* Slight zoom on hover */
+			box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+		}
+	
+		.contact-box i {
+			color: white; /* Icon color */
+			margin-bottom: 10px; /* Space below icon */
+		}
+	
+		.contact-box p {
+			margin: 0; /* Remove default margins */
+			font-size: 16px;
+			color: #ffffff;
+		}
+	
+		.contact-box strong {
+			color: #ffffff; /* Bold text color */
+		}
+	</style>
+	
+	<div class="row">
+		<!-- Phone Box -->
+		<div class="col-lg-4 col-md-6">
+			<div class="contact-box">
+				<i class="fas fa-phone-alt fa-4x"></i> <!-- Phone Icon -->
+				<h4 style="color: white;">Phone</h4>
+				<p><strong>+971 529469933</strong></p><br>
+			</div>
+		</div>
+	
+		<!-- Email Box -->
+		<div class="col-lg-4 col-md-6">
+			<div class="contact-box">
+				<i class="fas fa-envelope fa-4x"></i> <!-- Email Icon -->
+				<h4 style="color: white;">Email</h4>
+				<p><strong>info@truelifehomehealth.ae</strong></p><br>
+			</div>
+		</div>
+	
+		<!-- Location Box -->
+		<div class="col-lg-4 col-md-6">
+			<div class="contact-box">
+				<i class="fas fa-map-marker-alt fa-4x"></i> <!-- Location Icon -->
+				<h4 style="color: white;">Location</h4>
+				<p><strong>Office No. 314, 3rd Floor
+					Al NasriyaBuilding Block B,Al Qusais, Dubai, UAE</strong></p>
+			</div>
+		</div>
+	</div><br>
+	
+	
+	
 
 	<!-- Contact -->
 
@@ -123,13 +212,6 @@
 					<div class="contact_text">
 						<p>At Truelife Home Healthcare, we are dedicated to providing compassionate and professional home healthcare services tailored to your needs. Whether you have questions about our services, need assistance for a loved one, or wish to schedule a consultation, we’re here to help.</p>
 					</div>
-					<ul class="contact_about_list">
-						<li><div class="contact_about_icon"><img src="images/phone-call.svg" alt=""></div><span>+971 529469933</span></li>
-						<li><div class="contact_about_icon"><img src="images/envelope.svg" alt=""></div><span>info@truelifehomehealth.ae</span></li>
-						<li><div class="contact_about_icon"><img src="images/placeholder.svg" alt=""></div><span>Office No. 314, 3rd Floor
-							Al NasriyaBuilding Block B
-							Al Qusais, Dubai, UAE</span></li>
-					</ul>
 				</div>
 
 				<!-- Contact Form -->
@@ -151,29 +233,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row map_row">
-				<div class="col">
-					<!-- Contact Map -->
-					<div class="contact_map">
-						<!-- Google Map -->
-						<div class="map">
-							<div id="google_map" class="google_map">
-								<div class="map_container">
-									<iframe 
-										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.7647723582395!2d55.3816211748401!3d25.278497228403943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5c39c6555555%3A0xc72079c5fcb6c63a!2sAl%20Nasriya%20Building%20%2CBlock%20B%2C%20OFFICE%20104!5e0!3m2!1sen!2sin!4v1742664962626!5m2!1sen!2sin" 
-										width="100%" 
-										height="400" 
-										style="border:0;" 
-										allowfullscreen="" 
-										loading="lazy" 
-										referrerpolicy="no-referrer-when-downgrade">
-									</iframe>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			
 			
 		</div>
 	</div>
