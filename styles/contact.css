@@ -91,7 +91,7 @@ a, a:hover, a:visited, a:active, a:link
 }
 a:hover
 {
-	color: #008081 !important;
+	color: #f87c56 !important;
 }
 ::selection
 {
@@ -993,69 +993,6 @@ section
 }
 body {
     font-family: 'Outfit', sans-serif;
-}
-/* Footer Styling */
-.footer {
-    background-color: #222;
-    padding: 40px 0;
-    text-align: center;
-    color: white;
-}
-
-/* Social Icons */
-.footer .social-icons {
-    margin: 20px 0;
-    padding: 0;
-}
-
-.footer .social-icons a {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    margin: 0 10px;
-    border-radius: 50%;
-    background-color: #444;
-    color: white;
-    font-size: 18px;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-}
-
-/* Hover Effect for Social Icons */
-.footer .social-icons a:hover {
-    background-color: #F18070 !important;
-    color: white; /* Ensure the icon color remains visible */
-}
-
-.footer .social-icons a i {
-    transition: color 0.3s ease-in-out;
-}
-
-/* Changing the icon color on hover */
-.footer .social-icons a:hover i {
-    color: white;
-}
-
-/* Contact Information */
-.footer .contact-info {
-    margin-top: 20px;
-}
-
-.footer .contact-info p {
-    margin: 5px 0;
-    font-size: 16px;
-}
-
-.footer .contact-info a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-}
-
-/* Hover Effect for Contact Info */
-.footer .contact-info a:hover {
-    color: #F18070 !important;
 }
 
 
