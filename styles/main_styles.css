@@ -1558,11 +1558,12 @@ input::placeholder {
 }
 
 /* Animated Download Button */
+/* Animated Download Button */
 .btn-slide {
     position: relative;
     display: inline-block;
     height: 50px;
-    width: 50%px;
+    width: 260px;
     line-height: 50px;
     margin-top: 5px;
     border-radius: 25px;
