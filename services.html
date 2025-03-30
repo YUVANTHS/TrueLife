@@ -42,8 +42,15 @@
 				<li class="nav-item"><a class="nav-link text-dark fw-bold nav-hover" style="font-size: large;" href="about.html">About us</a></li>
 				<li class="nav-item"><a class="nav-link text-dark fw-bold nav-hover" style="font-size: large;" href="services.html">Services</a></li>
 				<li class="nav-item"><a class="nav-link text-dark fw-bold nav-hover" style="font-size: large;" href="contact.html">Contact Us</a></li>
-				<li class="nav-item"><a class="nav-link text-dark fw-bold nav-hover" style="font-size: large;" href="Brochure Registerform.html">Brochure</a></li>
-			  </ul>
+				<li class="nav-item">
+					<a class="btn-slide" href="#" data-bs-toggle="modal" data-bs-target="#brochureModal">
+						<span class="circle">
+							<i class="fa fa-file-pdf"></i>        
+						</span>
+						<span class="title">Brochure</span>
+						<span class="title title-hover">Download Now</span>
+					</a>
+				</li>
 			</div>
 		  </div>
 		</nav>
@@ -295,6 +302,72 @@
 			</div>
 		</div>		
 	</div>
+
+	<!-- Brochure Download Modal -->
+		
+	<div class="modal fade" id="brochureModal" tabindex="-1" aria-labelledby="brochureModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header" style="background: #008180; color: white;">
+					<h5 class="modal-title" id="brochureModalLabel">Download Our Brochure</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="form-container">
+						<form id="downloadForm" action="https://api.web3forms.com/submit" method="POST">
+							<input type="hidden" name="access_key" value="46337ffe-331e-4b26-963e-932939aa0826">
+							
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+							</div>
+						
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+							</div>
+						
+							<div class="form-group">
+								<label for="phone">Phone Number</label>
+								<input type="tel" id="phone" name="phone" class="form-control" placeholder="Your Phone Number" required>
+							</div>
+
+							<!-- Animated Button -->
+							<button type="submit" class="btn-normal">Download Brochure</button>
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Form Submission Script -->
+	<script>
+		document.getElementById("downloadForm").addEventListener("submit", function(event) {
+			event.preventDefault();
+
+			let formData = new FormData(this);
+
+			fetch("https://api.web3forms.com/submit", {
+				method: "POST",
+				body: formData
+			})
+			.then(response => response.json())
+			.then(data => {
+				if (data.success) {
+					alert("Thank you! Your brochure is now downloading.");
+					window.location.href = "Document/Truelifr_Brochure.pdf"; // Update with actual file path
+				} else {
+					alert("Form submission failed. Please try again.");
+				}
+			})
+			.catch(error => {
+				console.error("Error:", error);
+				alert("An error occurred. Please try again.");
+			});
+		});
+	</script>
 
 	<!-- Call to action
 

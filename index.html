@@ -43,7 +43,17 @@
 				<li class="nav-item"><a class="nav-link text-dark fw-bold nav-hover" href="about.html" style="font-size: large; color: #008081;">About us</a></li>
 				<li class="nav-item"><a class="nav-link text-dark fw-bold nav-hover" href="services.html" style="font-size: large; color: #008081;">Services</a></li>
 				<li class="nav-item"><a class="nav-link text-dark fw-bold nav-hover" href="contact.html" style="font-size: large; color: #008081;">Contact Us</a></li>
-				<li class="nav-item"><a class="nav-link text-dark fw-bold nav-hover" href="Brochure Registerform.html" style="font-size: large; color: #008081;">Brochure</a></li>
+				<li class="nav-item">
+					<a class="btn-slide" href="#" data-bs-toggle="modal" data-bs-target="#brochureModal">
+						<span class="circle">
+							<i class="fa fa-file-pdf"></i>        
+						</span>
+						<span class="title">Brochure</span>
+						<span class="title title-hover">Download Now</span>
+					</a>
+				</li>
+				
+				</li>
 			  </ul>
 			</div>
 		  </div>
@@ -74,7 +84,7 @@
 			  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center w-100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">
 				<h2>Bringing Exceptional Home Health Services</h2>
 				<p style="color: aliceblue;">Quality home care services tailored for your comfort and well-being.</p>
-				<a href="about.html" class="btn btn-primary custom-btn">Read More</a>
+				<a href="about.html" class="btn btn-primary custom-btn" style="width: 10%;">Read More</a>
 			  </div>
 			</div>
 			<div class="carousel-item">
@@ -82,7 +92,7 @@
 			  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center w-100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">
 				<h2>Personalized & Compassionate Services</h2>
 				<p style="color: aliceblue;">Ensuring dignity and comfort through professional home health services.</p>
-				<a href="#" class="btn btn-primary">Read More</a>
+				<a href="#" class="btn btn-primary" style="width: 10%;">Read More</a>
 			  </div>
 			</div>
 			<div class="carousel-item">
@@ -90,7 +100,7 @@
 			  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center w-100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">
 				<h2>Comprehensive Home Healthcare Solutions</h2>
 				<p style="color: aliceblue;">From medical treatments to personal care, we are here for you.</p>
-				<a href="#" class="btn btn-primary">Read More</a>
+				<a href="#" class="btn btn-primary" style="width: 10%;">Read More</a>
 			  </div>
 			</div>
 		  </div>
@@ -123,7 +133,7 @@
 						</div>
 						<div class="box_title fw-bold" style="padding-top:-50px;">Our Services</div>
 						<div class="box_text">We provide top-notch healthcare services including home visits and consultations.</div>
-						<a href="services.html" class="btn btn-light mt-3" style="background-color:#dc846a;">Explore Services</a>
+						<a href="services.html" class="btn btn-light mt-3" style="background-color:#dc846a; width: 50%;">Explore Services</a>
 					</div>
 				</div>
 
@@ -135,7 +145,7 @@
 						</div>
 						<div class="box_title fw-bold">Why Choose Us?</div>
 						<div class="box_text">Experienced professionals, 24/7 availability, and personalized care tailored to your needs.</div>
-						<a href="#about" class="btn btn-light mt-3" style="background-color:#dc846a;">Learn More</a>
+						<a href="#about" class="btn btn-light mt-3" style="background-color:#dc846a; width: 50%;">Learn More</a>
 					</div>
 				</div>
 
@@ -148,7 +158,7 @@
 						<div class="box_title fw-bold">Contact Us</div>
 						<div class="box_phone" style="font-size: 14px; color: #ffffff;">+971 529469933</div>
 						<div class="box_text">Have questions? Reach out to us anytime for assistance.</div>
-						<a href="#contact" class="btn btn-light mt-3 d-inline-block mx-auto" style="padding: 5px 10px; font-size: 17px; background-color: #dc846a; text-emphasis-color: #008081;">Get in Touch</a>
+						<a href="#contact" class="btn btn-light mt-3 d-inline-block mx-auto" style="padding: 5px 10px; font-size: 17px; background-color: #dc846a; text-emphasis-color: #008081; width: 50%;">Get in Touch</a>
 					</div>
 				</div>
 			</div>
@@ -344,10 +354,78 @@
 						</div>
 					</a>
 				</div>
-				
 			</div>
 		</div>
 	</div>
+
+	<!-- Brochure Download Modal -->
+	<!-- Brochure Modal -->
+	<!-- Modal -->
+		<div class="modal fade" id="brochureModal" tabindex="-1" aria-labelledby="brochureModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header" style="background: #008180; color: white;">
+						<h5 class="modal-title" id="brochureModalLabel">Download Our Brochure</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<div class="form-container">
+							<form id="downloadForm" action="https://api.web3forms.com/submit" method="POST">
+								<input type="hidden" name="access_key" value="46337ffe-331e-4b26-963e-932939aa0826">
+								
+								<div class="form-group">
+									<label for="name">Name</label>
+									<input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+								</div>
+							
+								<div class="form-group">
+									<label for="email">Email</label>
+									<input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+								</div>
+							
+								<div class="form-group">
+									<label for="phone">Phone Number</label>
+									<input type="tel" id="phone" name="phone" class="form-control" placeholder="Your Phone Number" required>
+								</div>
+
+								<!-- Animated Button -->
+								<button type="submit" class="btn-normal">Download Brochure</button>
+
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Form Submission Script -->
+		<script>
+			document.getElementById("downloadForm").addEventListener("submit", function(event) {
+				event.preventDefault();
+
+				let formData = new FormData(this);
+
+				fetch("https://api.web3forms.com/submit", {
+					method: "POST",
+					body: formData
+				})
+				.then(response => response.json())
+				.then(data => {
+					if (data.success) {
+						alert("Thank you! Your brochure is now downloading.");
+						window.location.href = "Document/Truelifr_Brochure.pdf"; // Update with actual file path
+					} else {
+						alert("Form submission failed. Please try again.");
+					}
+				})
+				.catch(error => {
+					console.error("Error:", error);
+					alert("An error occurred. Please try again.");
+				});
+			});
+		</script>
+
+	
 	
 
 	<!-- Call to action

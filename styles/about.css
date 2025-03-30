@@ -1302,3 +1302,159 @@ section
 body {
     font-family: 'Outfit', sans-serif;
 }
+.form-container {
+    background: #008180;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    background: #008180;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #F18070;
+}
+
+/* Animated Download Button */
+.btn-slide {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 260px;
+    line-height: 50px;
+    margin-top: 5px;
+    border-radius: 25px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+    background: teal;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.btn-slide:hover {
+    background: teal;
+}
+
+.btn-slide span.circle {
+    display: block;
+    background-color: teal;
+    position: absolute;
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transition: all 1.5s ease;
+}
+
+.btn-slide:hover span.circle {
+    left: 100%;
+    margin-left: -45px;
+    background-color: #fff;
+}
+
+.btn-slide span.title {
+    position: absolute;
+    left: 85px;
+    font-size: 18px;
+    color: #fff;
+    transition: all 1.5s linear;
+}
+
+.btn-slide span.title-hover {
+    opacity: 0;
+}
+
+.btn-slide:hover span.title {
+    opacity: 0;
+}
+
+.btn-slide:hover span.title-hover {
+    opacity: 1;
+    left: 60px;
+}
+
+/* Fix Button Visibility Issues */
+.btn-slide {
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+.btn-slide { 
+    height: 40px; /* Decrease height */
+    width: 200px;  /* Decrease width */
+    line-height: 40px; 
+    font-size: 14px; /* Reduce font size */
+    border-radius: 20px; /* Adjust roundness */
+}
+
+.btn-slide span.circle { 
+    height: 30px;  /* Decrease icon size */
+    width: 30px;  
+    margin: 5px; /* Adjust spacing */
+}
+
+.btn-slide span.title,
+.btn-slide span.title-hover { 
+    font-size: 14px; /* Adjust text size */
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Normal Button inside the Form with Border */
+.btn-normal {
+    background-color: #008180; /* Teal color */
+    color: #ffffff; /* White text */
+    border: 2px solid white; /* 2px white border */
+    padding: 10px 20px; /* Adjust padding */
+    font-size: 16px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    text-align: center;
+    width: 100%; /* Full width */
+    transition: background 0.3s ease, border 0.3s ease;
+}
+
+.btn-normal:hover {
+    background-color: #f87c56; /* New hover color */
+    border-color: #f87c56; /* Change border color on hover */
+}
