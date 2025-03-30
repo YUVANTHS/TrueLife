@@ -1667,32 +1667,6 @@ input::placeholder {
     border-color: #f87c56; /* Change border color on hover */
 }
 
-/*courousel button*/
-.custom-btn {
-    width: 150px; /* Default width */
-    max-width: 90%; /* Prevent overflow */
-    padding: 10px 20px;
-    font-size: 16px;
-    text-align: center;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .custom-btn {
-        width: 60%; /* Adapt for tablets */
-        font-size: 14px;
-        padding: 8px 16px;
-    }
-}
-
-@media (max-width: 480px) {
-    .custom-btn {
-        width: 80%; /* Adapt for mobile */
-        font-size: 13px;
-        padding: 6px 14px;
-    }
-}
-
 
   
 
